@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Raleway', 'inter', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -16,7 +16,7 @@ body {
     width: calc(100% - 100px);
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 99999;
 }
 
 .logo {
@@ -86,8 +86,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 50px 80px 150px;
-    background-color: white;
+    padding: 100px 50px 100px 150px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
     
     
 }
@@ -96,7 +97,6 @@ body {
     flex: 1; 
     max-width: 500px;
     text-align: left;
-    margin-left: 220px; 
 }
 
 .action-content h2 {
